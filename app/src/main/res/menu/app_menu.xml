@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="User"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/myDocs"
+        android:icon="@drawable/ic_baseline_folder_shared_24"
+        android:title="My Docs"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_thumbs_up_down_24"
+        android:title="About"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Exit"
+        app:showAsAction="ifRoom" />
+</menu>

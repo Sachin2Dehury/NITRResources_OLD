@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:bottomLeftRadius">24dp</item>
+        <item name="android:bottomRightRadius">24dp</item>
+        <item name="android:topLeftRadius">24dp</item>
+        <item name="android:topRightRadius">24dp</item>
+        <!--        <item name="android:textColor">@android:color/white</item>-->
+        <!--        <item name="android:buttonStyle">@style/AppTheme.Button</item>-->
+        <!--        <item name="android:windowBackground">@color/dark</item>-->
+        <!--        <item name="android:editTextBackground">@drawable/stroke</item>-->
+        <!--        <item name="android:editTextColor">@android:color/white</item>-->
+        <!--        <item name="android:textColorHint">@color/grey</item>-->
+        <!--        <item name="android:itemBackground">@color/darkBlue</item>-->
+        <!--        <item name="android:screenOrientation">locked</item>-->
+        <!--        <item name="itemTextColor">@color/grey</item>-->
+        <!--        <item name="itemIconTint">@color/grey</item>-->
+        <!--        <item name="hintTextColor">@color/grey</item>-->
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/gradient</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+</resources>
